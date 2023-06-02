@@ -108,4 +108,6 @@ const deleteMovies = async (req: Request, res: Response): Promise<Response> => {
   return res.status(204).send();
 };
 
+console.log('oi')
+
 export { createMovies, listOfMovies, listMoviesId, updateMovies, deleteMovies };
