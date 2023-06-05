@@ -1,3 +1,4 @@
+import "dotenv/config";
 import Express, { Application } from "express";
 import { startDatabase } from "./database";
 import {
